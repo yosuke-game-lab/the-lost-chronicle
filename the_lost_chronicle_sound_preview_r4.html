@@ -1,0 +1,235 @@
+<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#0d151b"><title>THE LOST CHRONICLE — SOUND ARCHIVE</title><style>
+:root{color-scheme:dark;--bg:#0d151b;--surface:#142029;--border:#35464e;--text:#e9e5d9;--sub:#bdc7c8;--quiet:#92a0a6;--gold:#d4ad68;--light:#f3d89c}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0,#2d3c42 0,transparent 35%),var(--bg);color:var(--text);font:14px/1.65 -apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif}main{max-width:760px;margin:auto;padding:calc(env(safe-area-inset-top) + 24px) 17px calc(env(safe-area-inset-bottom) + 36px)}header{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:10px;letter-spacing:.13em;color:var(--quiet);border-bottom:1px solid var(--border);padding-bottom:15px}.brand{color:var(--light);font-weight:700}h1{font:400 clamp(38px,10vw,70px)/1.02 Georgia,serif;letter-spacing:.035em;margin:23px 0 8px}h2{font:400 23px Georgia,serif;letter-spacing:.05em;margin:29px 0 4px;color:var(--light)}p{margin:7px 0 15px;color:var(--sub)}.eyebrow,.place{font-size:10px;letter-spacing:.12em;color:var(--gold);font-weight:650}.intro{margin-bottom:20px}.player{position:relative;padding:18px;background:linear-gradient(140deg,#23343d,#152128);border:1px solid #766644;border-radius:15px;box-shadow:0 14px 35px #0004}.now{font:400 clamp(20px,5vw,28px)/1.2 Georgia,serif;color:var(--light);margin:5px 0}.muted{color:var(--quiet);font-size:12px}.buttons{display:flex;gap:9px;margin:14px 0}.buttons button{flex:1}.btn{min-height:46px;padding:9px 14px;border:1px solid #5c727b;border-radius:9px;background:#263942;color:var(--text);font:inherit;font-weight:650;cursor:pointer}.primary{background:var(--gold);color:#172025;border-color:var(--gold)}button:disabled{opacity:.48;cursor:default}button:focus-visible,input:focus-visible{outline:2px solid var(--light);outline-offset:3px}progress{width:100%;height:7px;border:0;border-radius:6px;overflow:hidden;background:#0d151b;accent-color:var(--gold)}progress::-webkit-progress-bar{background:#0d151b}progress::-webkit-progress-value{background:var(--gold)}.time{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:11px;color:var(--sub)}.controls{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.volume{display:grid;gap:2px;min-width:0}.volhead{display:flex;justify-content:space-between;gap:5px;font-size:12px}.volume input{width:100%;min-height:36px;accent-color:var(--gold);margin:0}.loop{display:flex;align-items:center;gap:7px;min-height:44px;color:var(--sub);font-size:12px}.loop input{accent-color:var(--gold);width:18px;height:18px}.tracklist{display:grid;gap:9px}.track,.effect{width:100%;border:1px solid var(--border);border-radius:12px;background:#16252d;color:var(--text);text-align:left;cursor:pointer;font:inherit}.track{display:flex;gap:12px;align-items:center;padding:14px 12px;min-height:94px}.track[aria-pressed=true]{border-color:var(--gold);background:#25332f}.num{font:25px Georgia,serif;color:var(--gold);align-self:flex-start;margin-top:4px}.trackbody{flex:1;min-width:0;display:grid;gap:3px}.track strong{font:400 17px/1.2 Georgia,serif;color:var(--light);letter-spacing:.025em}.jp{font-size:12px}.desc{font-size:11px;line-height:1.6;color:var(--sub)}.state{font-size:10px;color:var(--gold);white-space:nowrap}.playing .state{color:#a6d7b5}.effects{display:grid;grid-template-columns:1fr 1fr;gap:9px}.effect{min-height:110px;padding:12px;display:grid;gap:5px}.effect strong{font-size:14px}.seplay{font-size:11px;color:var(--light)}.note{border-top:1px solid var(--border);margin-top:25px;padding-top:15px;font-size:12px;color:var(--quiet)}footer{text-align:center;color:var(--quiet);font-size:10px;letter-spacing:.08em;margin-top:25px}#status{min-height:20px;font-size:12px;color:var(--sub);overflow-wrap:anywhere}@media(max-width:359px){main{padding-inline:12px}.track{gap:8px;padding:11px 9px}.track strong{font-size:15px}.state{font-size:9px}.controls{gap:8px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.audio-warning{margin:0 0 16px;padding:11px 12px;border-left:2px solid var(--gold);background:#d4ad6810;color:var(--sub);font-size:12px;line-height:1.7}.audio-warning strong{color:var(--light)}.seeklabel{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--sub);gap:5px}.seeklabel span{font-size:10px;color:var(--quiet)}#progress{display:block;width:100%;height:44px;margin:0;accent-color:var(--gold);cursor:pointer;touch-action:pan-y}#progress::-webkit-slider-thumb{cursor:grab}.time{margin-top:-5px}</style></head><body><main><header><span class="brand">THE LOST CHRONICLE</span><span>FIELD ARCHIVE / SOUND 04</span></header><div class="intro"><div class="eyebrow" style="margin-top:22px">V14.5 · PHASE 01 · SOUND PREVIEW R4</div><h1>SOUND<br>ARCHIVE</h1><p>失われた人類史 — 音楽試聴室<br><span class="muted">五つの文明、途切れない音の旅。音源は端末内で生成されます。</span></p></div><p class="audio-warning" role="note"><strong>iPhoneで試聴する前に：</strong> マナーモード（消音モード）では音が聞こえない場合があります。マナーモードを解除し、端末の音量を確認してください。</p><section class="player" aria-label="音楽プレイヤー"><div class="eyebrow">NOW SELECTED / PLAYING</div><div class="now" id="now"></div><div class="muted" id="track-sub"></div><div class="buttons"><button class="btn primary" id="play">再生</button><button class="btn" id="stop">停止</button></div><label class="seeklabel" for="progress">再生位置 <span>タップ・ドラッグで移動</span></label><input id="progress" type="range" min="0" max="1" step="0.001" value="0" aria-label="再生位置"><div class="time"><span id="time"></span><label class="loop"><input type="checkbox" id="loop" checked>ループ再生</label></div><div class="controls"><label class="volume"><span class="volhead"><span>BGM音量</span><span id="bgmvollabel">30%</span></span><input id="bgmvol" type="range" min="0" max="100" value="30" aria-label="BGM音量"></label><label class="volume"><span class="volhead"><span>効果音量</span><span id="sevollabel">40%</span></span><input id="sevol" type="range" min="0" max="100" value="40" aria-label="効果音量"></label></div><div id="status" role="status">停止中 · 再生ボタンまたは曲名をタップ</div></section><h2>01 / MUSIC</h2><p class="muted">曲名をタップすると試聴します。切替時は短いクロスフェード。</p><div class="tracklist" id="tracks"></div><h2>02 / SOUND EFFECTS</h2><p class="muted">BGMに重ねて試聴できます。</p><div class="effects" id="effects"></div><p class="muted" id="fx-status" role="status">効果音は個別に試聴できます。</p><div class="note">古代の出土楽器・音楽文化を参考にした現代の創作音楽です。音階・拍子・旋律は創作であり、古代音楽を正確に復元したものではありません。エジプトのヒジャーズ風とインダスの南アジア風の表現は後世の音楽文化を参考にしています。外部音源・外部通信なし。ゲームのセーブデータにはアクセスしません。iPhoneで音が出ない場合はSafariで開き、マナーモード（消音モード）を解除して端末の音量を確認してください。</div><footer>THE LOST CHRONICLE · SOUND STUDY / PHASE 01</footer></main><script>
+/* THE LOST CHRONICLE — original procedural score, preview 1.
+   No recordings, dependencies, network requests, or game storage. */
+const TRACKS = [
+ {name:'THE FIRST TRACE',jp:'最初の痕跡',place:'MESOPOTAMIA',bpm:112,meter:'7/8・八分音符112',beats:7,air:'wind',desc:'竪琴の分散音と擦弦風の連続旋律。2+2+3の拍を柔らかく刻む。'},
+ {name:'THE SILENT HEIRS',jp:'沈黙の継承者',place:'EGYPT',bpm:76,meter:'4/4・儀礼の行進',beats:4,air:'hall',desc:'ヒジャーズ風の長い笛の旋律と二管の響き。ハープが連続し、儀礼的な拍が流れる。'},
+ {name:'THE COMMON MEMORY',jp:'共通する記憶',place:'INDUS',bpm:92,meter:'6拍・循環するリズム',beats:6,air:'water',desc:'南アジア風の滑る笛、共鳴弦の連続した流れ、持続する主音と柔らかな手太鼓。'},
+ {name:'THE FORBIDDEN TRUTH',jp:'封じられた真実',place:'ANCIENT CHINA',bpm:72,meter:'4/4・五音音階',beats:4,air:'still',desc:'五音音階。竹笛の歌う旋律、琴の流水のような分散音、青銅鐘と磬の余韻。'},
+ {name:'THE LOST CHRONICLE',jp:'失われた人類史',place:'MAYA',bpm:112,meter:'12パルス・交差する拍',beats:12,air:'forest',desc:'土笛の長い呼応、木鼓の交差する拍と密林の風。低い笛の持続音が旋律をつなぐ。'},
+ {name:'THE LOST CHRONICLE',jp:'すべての記録がつながる',place:'EPILOGUE',bpm:58,meter:'4/4・ピアノと弦',beats:8,lead:'piano',air:'still',desc:'柔らかなピアノと弦の余韻。六音の旋律が初めて一つになる。',chords:['Dm9','Bb','F','C','Gm','Dm9','Bb','Asus','Dm9','F','C','G','Bb','F','Asus','Dadd9'],phrases:[[0,[[.5,62,2],[3,65,2],[5.5,69,2.5]]],[1,[[1,67,2],[4,64,2],[6.5,62,2.5]]],[3,[[1,64,2],[5,67,2]]],[5,[[1,69,2],[4,65,2],[6.5,64,1.5]]],[7,[[1,64,2],[5,69,2]]],[8,[[.5,62,2],[3,65,2],[5.5,69,2.5]]],[9,[[1,67,2],[4,64,2],[6.5,62,2.5]]],[11,[[1,67,2],[5,71,2]]],[13,[[1,69,2],[4,65,2],[6,64,2]]],[15,[[.5,62,2],[3,66,2],[6,62,3]]]]}
+];
+const CHORDS={Dm:[50,57,65,69],Dm9:[50,57,65,76],Bb:[46,53,62,65],F:[41,53,60,69],C:[48,55,64,67],Gm:[43,55,62,70],G:[43,55,62,71],Am:[45,57,64,69],Asus:[45,57,62,64],Dadd9:[50,57,66,76],Eb:[51,58,67,70],A:[45,57,61,64],D5:[50,57,62,69],G5:[43,55,62,67],C5:[48,55,60,67],F5:[41,53,60,65],A5:[45,57,64,69]};
+const SE=[{name:'解読成功',desc:'澄んだ二音の鐘',duration:1.4,notes:[[0,74,.85,.12],[.18,81,1.15,.075]]},{name:'解読失敗',desc:'柔らかな中音域の短い下降二音',duration:.48,notes:[[0,65,.24,.18,'errorwood'],[.15,62,.32,.145,'errorwood']]},{name:'章のクリア',desc:'三音が静かに広がる',duration:2.5,notes:[[0,62,1.5,.10],[.30,69,1.7,.095],[.68,76,1.8,.075]]},{name:'全章クリア',desc:'共通モチーフの小さな序奏',duration:3.5,notes:[[0,62,2.4,.085],[.35,65,2.25,.07],[.75,69,2.3,.075],[1.18,67,2,.06],[1.55,64,1.8,.06],[1.95,62,1.5,.07]]}];
+const TAU=2*Math.PI, clamp=(v,a,b)=>Math.max(a,Math.min(b,v)), hz=n=>440*2**((n-69)/12);
+function rng(seed){return ()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};}
+function endingScore(trackId){
+ const t=TRACKS[trackId], b=60/t.bpm, ev=[], random=rng(8701+trackId*41), B=t.beats;
+ const add=(beat,n,len,amp,kind,pan=0)=>ev.push({time:beat*b,n,d:len*b,a:amp,kind,pan});
+ const pl=(j,c,pat,kind,amp,len=1.3)=>pat.forEach(([p,k],i)=>add(j+p,c[k],len,amp*(.88+random()*.22),kind,i%2?.22:-.24));
+ t.chords.forEach((key,i)=>{
+  const c=CHORDS[key], j=i*B, section=i%4;
+  switch(trackId){
+   case 5: // retain original epilogue arrangement
+    add(j,c[0],8.9,.075,'bass');
+    c.slice(1).forEach((n,k)=>add(j+[0,.42,.85][k],n,8.5-[0,.42,.85][k],.054*(.94+random()*.12),'pad',[-.45,.10,.45][k]));
+    (section===0?[1.3,4.2,6.7]:section===1?[2.1,5.5]:section===2?[.8,5.4]:[3.2,6.4]).forEach((p,k)=>add(j+p,c[1+(i+k)%3]-(k===0?12:0),2.2,.038,'piano',k%2?.28:-.3));
+    break;
+  }
+ });
+ t.phrases.forEach(([bar,notes])=>notes.forEach(([at,n,d],i)=>{
+  const amp=[.112,.125,.095,.125,.118,.15][trackId]*(.88+random()*.20);
+  if(trackId===3&&i===1&&bar%2===0)add(bar*B+at-.13,n-2,.13,.038,'qin',-.14);
+  add(bar*B+at,n,d,amp,t.lead,i%2?.12:-.1);
+ }));
+ return {length:t.chords.length*B*b,events:ev.sort((a,b)=>a.time-b.time)};
+}
+
+// Original 32-bar suites. Phrases are not transcriptions of historical music.
+function score(id){
+ if(id===5)return endingScore(5);
+ const t=TRACKS[id], b=60/t.bpm,B=t.beats, bars=id===4?20:32, ev=[], r=rng(992+id*81);
+ const put=(j,p,n,d,a,k,pan=0,glide=0)=>{if(p<0||p>=B)return;ev.push({time:(j*B+p)*b,n,d:d*b,a:a*(.91+r()*.16),kind:k,pan,glide});};
+ const phrase=(j,arr,k,a,pan=0)=>arr.forEach(([p,n,d,g=0],i)=>{
+  const gap=(arr[i+1]?.[0]??B)-p, sustained=['reed','ney','flute','bamboo','ocarina','bow','breathdrone'].includes(k);
+  const len=sustained?Math.max(d,gap+.18):Math.max(d,Math.min(gap+.40,2.8));
+  const prev=arr[i-1]?.[1]; const slide=g||(sustained&&prev!==undefined?clamp((prev-n)*20,-85,85):0);
+  put(j,p,n,len,a,k,pan,slide);
+ });
+ const P=(j,arr,k,a,pan=0)=>phrase(j,arr,k,a,pan);
+ // Main themes have different scale, rhythmic contour, register, and phrasing.
+ const meso=[
+ [[0,64,1],[1.25,67,.7],[2,69,1.5],[4,67,.8],[5,66,.75],[6,64,.9]],
+ [[0,64,.85],[1,66,.7],[2,67,.85],[3,71,.9],[4.4,69,1.8]],
+ [[0,69,1.4],[2,71,.8],[3,72,.85],[4,71,.7],[5,67,1.8]],
+ [[0,66,1.4],[2,67,.8],[3.1,66,.7],[4,64,2.4]],
+ [[0,71,.9],[1,72,.75],[2,74,1.6],[4,72,.8],[5,71,.8],[6,69,.8]],
+ [[0,67,1.2],[2,66,.8],[3,64,.7],[4.2,62,1.6],[6,64,.8]],
+ [[0,69,1.3],[2,67,.85],[3,66,.7],[4,67,1.2],[6,71,.8]],
+ [[0,66,.7],[1,67,.75],[2,66,1],[4,64,2.6]]];
+ const egypt=[
+ [[0,62,.65],[.75,63,.43],[1.25,66,.68,70],[2,67,.65],[2.75,66,.45],[3.25,63,.65]],
+ [[0,62,1.35],[1.75,69,.65],[2.5,67,.42],[3,66,.9]],
+ [[0,70,.55],[.75,69,.7],[1.75,67,.65],[2.5,66,.4],[3,63,.8]],
+ [[0,62,2.8,-65]],
+ [[0,69,.8],[1,70,.4],[1.5,73,.9],[2.5,74,.6],[3.25,73,.55]],
+ [[0,70,.8],[1,69,.6],[2,67,.7],[3,66,.85]],
+ [[0,63,.45],[.5,66,.7],[1.5,67,.45],[2,66,.65],[3,63,.7]],
+ [[0,62,2.8,-50]]];
+ const indus=[
+ [[0,62,.65],[.75,64,.55,80],[1.5,66,1.1],[3,69,.7],[4,71,1.5]],
+ [[0,69,.6],[.75,66,.7],[2,64,.85],[3.5,62,1.7]],
+ [[0,66,.7],[1,69,.6],[2,71,.85],[3,74,1.2],[4.5,71,.8]],
+ [[0,69,.9],[1.5,66,.9],[3,64,.65],[4,62,1.65]],
+ [[0,71,.8],[1,74,.6],[2,76,.9],[3.5,74,.65],[4.5,71,1.1]],
+ [[0,69,1.2],[1.5,71,.7],[2.5,69,.6],[3.5,66,1.5]],
+ [[0,64,.55],[.75,66,.7],[1.75,69,1.3],[3.5,66,.6],[4.5,64,.9]],
+ [[0,62,2.2],[3.5,69,.65],[4.5,62,1.1]]];
+ const china=[
+ [[0,67,.7],[.85,69,.4],[1.5,71,.85],[2.75,74,1]],
+ [[0,76,.65],[.75,74,.55],[1.5,71,.9],[3,69,.8]],
+ [[0,71,.75],[1,74,.55],[1.75,76,.85],[3,79,.85]],
+ [[0,76,.6],[.75,74,.6],[1.5,71,.8],[2.75,67,1.15]],
+ [[0,74,.8],[1,76,.55],[1.75,79,.85],[3,81,.85]],
+ [[0,79,.8],[1,76,.6],[2,74,.75],[3,71,.85]],
+ [[0,69,.55],[.65,71,.7],[1.5,74,1.1],[3,71,.75]],
+ [[0,69,.7],[1,67,2.5]]];
+ const maya=[
+ [[0,67,1.5],[2,70,.85],[3.5,72,1.4],[6,70,1.2],[8,67,2]],
+ [[1,72,1.2],[3,74,.85],[4.5,72,1.5],[7.5,67,2]],
+ [[0,65,1.3],[2,67,.9],[3.5,70,1.4],[6,72,1.6],[9,70,1.5]],
+ [[0,67,2.4],[5,65,1.3],[7,67,3]],
+ [[0,74,1.1],[1.5,72,1],[3,70,1.4],[6,74,1.5],[9,77,1.2]],
+ [[0,77,1.1],[2,74,1],[4,72,1.4],[7,70,1.6],[10,67,1.1]],
+ [[0,67,1.1],[1.5,70,.8],[3,72,1.4],[6,74,1.6],[9,72,1.7]],
+ [[0,70,1.2],[3,67,2],[8,67,2.1]]];
+ for(let j=0;j<bars;j++){
+  const q=j%8, sec=Math.floor(j/8), idx=(sec===1?(q+4)%8:sec===2?[0,2,1,3,4,6,5,7][q]:q);
+  if(id===0){ // mobile lyre ensemble, asymmetric eighth-note gait
+   const roots=[52,52,55,52,57,55,47,52], root=roots[q];
+   const pat=sec===1?[[0,root],[2,root+7],[4,root+12],[5.5,root+7]]:[[0,root],[1,root+7],[2,root],[3,root+12],[4,root+7],[6,root+12]];
+   pat.forEach(([p,n],i)=>put(j,p,n,1.95,.053,'lyre',i%2?.28:-.28));
+   [0,2,4].forEach((p,i)=>put(j,p,i===0?55:61,.52,i===0?.068:.040,'frame',-.12));
+   if(q%2===0)put(j,5,65,.32,.036,'seed',.25);
+   P(j,meso[idx],sec===1?'reed':'bow',sec===1?.097:.112,.06);
+   put(j,0,root,7.5,.035,'bow',-.34);
+   if(sec!==1)P(j,meso[idx].filter((_,i)=>i%2===0),'oud',.052,.24);
+   if(q===3||q===7)put(j,4,root+12,2.8,.052,'lyre',.35);
+  } else if(id===1){ // Egyptian-inspired ceremonial procession, double reeds and sistrum
+   const bass=[50,50,55,50,57,55,50,50][q];
+   [0,1,2,3].forEach((p,i)=>put(j,p,bass+[0,12,7,12][i],1.85,.058,'harp',i%2?.18:-.23));
+   put(j,0,50,4.4,.036,'breathdrone',-.22);
+   [0,2.5].forEach((p,i)=>put(j,p,i?60:53,.43,i?.048:.076,'frame',-.16));
+   (q===3||q===7?[1,3]:[.5,1.5,2.75,3.5]).forEach(p=>put(j,p,60,.26,.032,'sistrum',.35));
+   const arr=egypt[idx];P(j,arr,sec===2?'ney':'reed',sec===2?.145:.113,.04);
+   if(sec!==2){ // independent pipe sustained on a fifth or unison, not triadic chords
+    put(j,0, q===4?69:57,4.4,.040,'reed',-.32,-8);
+    if(q%2===0)put(j,3.1,62,.8,.065,'harp',.25);
+   }
+   if(q===3||q===7)put(j,2.5,62,1.45,.055,'harp',.28);
+  } else if(id===2){ // drone + cyclic hand percussion, melodic plucked strings
+   [0,1.5,3,4.5].forEach((p,i)=>put(j,p,[50,57,62,57][i],3.2,.060,'dronepluck',-.26));
+   put(j,0,50,6.6,.042,'breathdrone',.18);
+   const rhythm=q===7?[[0,53],[1,63],[2,60],[3,53],[4,63],[5,60],[5.5,63]]:[[0,53],[1,63],[2.5,60],[3,55],[4,63],[5,60]];
+   rhythm.forEach(([p,n],i)=>put(j,p,n,.35,i===0||p===3?.066:.035,i===0||p===3?'handbass':'clay',i%2?.22:-.18));
+   P(j,indus[idx],'flute',sec===1?.145:.107,.10);
+   if(sec!==1)P(j,indus[idx].filter((_,i)=>i%2===0),'zither',.082,-.15);
+   if(sec!==1&&q%2===0)put(j,4.8,69,.8,.043,'dronepluck',.35);
+  } else if(id===3){ // Chinese pentatonic solo/response; no Western chord bed
+   const roots=[55,55,57,55,62,59,57,55];
+   [0,1,2,3].forEach((p,i)=>put(j,p,[roots[q],67,74,71][i],2.5,.047,'qin',i%2?.16:-.31));
+   if(q%2===0)put(j,2.5,roots[q]+12,1.25,.049,'qin',-.3);
+   const arr=china[idx];
+   if(sec===0||sec===3){P(j,arr,'bamboo',.115,.16);P(j,arr,'qin',.085,-.13);}
+   else {P(j,arr,'bamboo',.135,.16);if(q%2===0)P(j,[[1,arr[0][1]-12,.8],[3,arr[1][1]-12,.8]],'qin',.068,-.32);}
+   if(q===0||q===4)put(j,0,roots[q]+12,4.8,.057,'bronze',.30);
+   if(q===2||q===6)put(j,2,74,2.0,.048,'stone',.25);
+   if(q===3||q===7)put(j,3.15,62,.38,.043,'wood',-.2);
+  } else { // Mayan-inspired wind/percussion ensemble; no pads, no chord changes
+   const pattern=sec===1?[0,2,4,6,8,10]:[0,3,6,9];
+   pattern.forEach((p,i)=>put(j,p,i%2?60:54,.55,i%2?.047:.075,'handbass',-.22));
+   const cross=q%2?[1,4,7,10]:[0,2,5,8,10];
+   cross.forEach((p,i)=>put(j,p,i%2?65:60,.30,i===0?.067:.042,'wood',.18));
+   [1,3,5,7,9,11].forEach(p=>put(j,p,63,.28,.025,'seed',.37));
+   if(q%4===3){[7,8,9,10,11].forEach((p,i)=>put(j,p,57+i%2*5,.27,.054,'clay',-.36));}
+   P(j,maya[idx],sec===1?'bamboo':'ocarina',.134,-.14);
+   put(j,0,q===4||q===5?62:55,12.6,.049,'ocarina',.24);
+   if(q%2===0)P(j,[[8.3,74,1.15],[10,72,1.15]],'ocarina',.085,.40);
+   else P(j,[[5,62,1.3],[10,65,1.2]],'ocarina',.075,.40);
+  }
+ }
+ // A different shape per section, no long common ambient chords. End on the tonal center.
+ return {length:bars*B*b,events:ev.sort((a,b)=>a.time-b.time)};
+}
+
+// Additive plucked, hammered, and resonant timbres, synthesized on demand at 22.05 kHz.
+const TIMBRES={
+ lyre:{rat:[1,2.001,3.01,4.02,5.03,6.05],amp:[1,.62,.29,.16,.10,.04],dec:[1.6,.84,.52,.34,.22,.14],attack:.012,noise:.045},
+ dronepluck:{rat:[1,2,3.002,4.009,5.02,6.01,7.05,9.08],amp:[1,.52,.42,.29,.22,.12,.08,.03],dec:[2.6,2.1,1.8,1.4,1.1,.8,.6,.4],attack:.022,noise:.035,double:.002},
+ stone:{rat:[1,2.32,3.78,5.2],amp:[1,.25,.09,.035],dec:[.95,.55,.26,.12],attack:.012,noise:.025},
+ sistrum:{percussion:true,freq:0,dec:.13,noise:1,attack:.009},
+ handbass:{percussion:true,freq:165,dec:.20,noise:.23,attack:.009},
+ oud:{rat:[1,2.003,3.01,4.02,5.05,6.1],amp:[1,.50,.24,.12,.08,.035],dec:[1.8,.92,.52,.32,.21,.13],attack:.018,noise:.035},
+ harp:{rat:[1,2,3.003,4.009,5.015],amp:[1,.28,.13,.06,.035],dec:[1.8,.90,.55,.30,.20],attack:.022,noise:.012},
+ qin:{rat:[1,2.006,3.016,4.03,5.06,7.1],amp:[1,.33,.22,.12,.07,.035],dec:[2.6,1.25,.77,.45,.28,.16],attack:.025,noise:.022},
+ piano:{rat:[1,2.001,3.006,4.015,5.03,6.055,8.1],amp:[1,.40,.23,.11,.065,.04,.025],dec:[2.7,1.5,1,.65,.4,.3,.2],attack:.016,noise:.012,double:.003},
+ bell:{rat:[1,2.01,2.76,4.07,5.43],amp:[1,.16,.19,.08,.035],dec:[1.6,.85,.65,.35,.18],attack:.028,noise:0},
+ bronze:{rat:[1,1.52,2.08,2.72,3.46,4.36],amp:[1,.28,.22,.13,.09,.035],dec:[2.9,1.9,1.4,.85,.55,.3],attack:.045,noise:.009},
+ soft:{rat:[1,2,3],amp:[1,.15,.04],dec:[.22,.12,.06],attack:.04,noise:0},
+ zither:{rat:[1,2.004,3.014,4.02,5.05,6.07,8.12],amp:[1,.53,.28,.19,.11,.06,.025],dec:[1.5,1.0,.66,.43,.28,.18,.14],attack:.012,noise:.055,double:.004},
+ errorwood:{rat:[1,2.02,3.14,4.1],amp:[1,.40,.14,.025],dec:[.26,.14,.08,.055],attack:.012,noise:.02},
+ frame:{percussion:true,freq:135,dec:.17,noise:.30,attack:.008},
+ clay:{percussion:true,freq:270,dec:.10,noise:.20,attack:.006},
+ wood:{percussion:true,freq:315,dec:.12,noise:.13,attack:.006},
+ seed:{percussion:true,freq:0,dec:.075,noise:1,attack:.014}
+};
+class SoundEngine{
+ constructor(ctx){this.ctx=ctx;this.samples=new Map();this.waves=new Map();this.noises=new Map();this.bgm=ctx.createGain();this.sfx=ctx.createGain();this.master=ctx.createGain();this.comp=ctx.createDynamicsCompressor();this.comp.threshold.value=-12;this.comp.knee.value=18;this.comp.ratio.value=5;this.comp.attack.value=.012;this.comp.release.value=.28;this.master.gain.value=.85;this.bgm.gain.value=.54;this.sfx.gain.value=.72;this.duck=ctx.createGain();this.bgm.connect(this.duck);this.duck.connect(this.comp);this.sfx.connect(this.comp);this.comp.connect(this.master);this.master.connect(ctx.destination);this.reverb=null;}
+ room(){if(this.reverb)return this.reverb;const c=this.ctx,r=c.createConvolver(),len=Math.round(c.sampleRate*2.3),buf=c.createBuffer(2,len,c.sampleRate),random=rng(1157);for(let k=0;k<2;k++){const a=buf.getChannelData(k);let prev=0;for(let i=0;i<len;i++){prev=.64*prev+.36*(random()*2-1);const t=i/c.sampleRate;a[i]=t<.025?0:prev*Math.exp(-3.5*t)*Math.min(1,(t-.025)*35)*.4;}}r.buffer=buf;r.connect(this.bgm);this.reverb=r;return r;}
+ sample(kind){if(this.samples.has(kind))return this.samples.get(kind);const p=TIMBRES[kind],c=this.ctx,sr=22050,len=Math.round(sr*(p.percussion?.65:5.5)),buf=c.createBuffer(1,len,sr),a=buf.getChannelData(0),random=rng(190+kind.charCodeAt(0)),phase=(p.rat||[]).map(()=>random()*TAU);let max=0,noise=0,previous=0;for(let i=0;i<len;i++){let t=i/sr,v=0;if(p.percussion){const w=random()*2-1;previous=.62*previous+.38*w;const ph=TAU*p.freq*(t+.022*(1-Math.exp(-t*35)));v=(p.freq?Math.sin(ph)+.30*Math.sin(ph*1.67)*Math.exp(-t*10):0)*Math.exp(-t/p.dec)+p.noise*(w-previous)*Math.exp(-t/(p.dec*.55));}else for(let j=0;j<p.rat.length;j++){const phi=TAU*220*p.rat[j]*t+phase[j];let s=Math.sin(phi);if(p.double)s=.72*s+.28*Math.sin(phi*(1+p.double));v+=p.amp[j]*Math.exp(-t/p.dec[j])*s;}noise=.5*noise+.5*(random()*2-1);if(!p.percussion)v+=p.noise*noise*Math.exp(-t*36);v*=Math.min(1,t/p.attack)*Math.min(1,(len-i)/sr/.12);a[i]=v;max=Math.max(max,Math.abs(v));}for(let i=0;i<len;i++)a[i]*=.83/Math.max(max,.01);this.samples.set(kind,buf);return buf;}
+ wave(kind){if(this.waves.has(kind))return this.waves.get(kind);const harmonic=kind==='bow'?[0,1,.46,.24,.12,.065,.03]:kind==='breathdrone'?[0,1,.17,.055,.025]:kind==='pad'?[0,1,.32,.16,.075,.025]:kind==='bass'?[0,1,.20,.05]:kind==='reed'?[0,1,.28,.48,.16,.20,.07,.045]:kind==='ney'?[0,1,.23,.065,.035]:kind==='bamboo'?[0,1,.42,.12,.04]:kind==='ocarina'?[0,1,.065,.028,.009]:[0,1,.13,.045,.022];const w=this.ctx.createPeriodicWave(new Float32Array(harmonic.length),new Float32Array(harmonic));this.waves.set(kind,w);return w;}
+ noise(kind){if(this.noises.has(kind))return this.noises.get(kind);const c=this.ctx,sr=22050,len=sr*9,b=c.createBuffer(1,len,sr),a=b.getChannelData(0),random=rng(37+kind.charCodeAt(0));let low=0,mid=0;for(let i=0;i<len;i++){let w=random()*2-1;low=.992*low+.008*w;mid=.84*mid+.16*w;const p=i/len*TAU;let v=kind==='water'?(mid-low)*(.32+.12*Math.sin(p*5)+.08*Math.sin(p*13)):kind==='forest'?(mid-low)*(.32+.10*Math.sin(p*3)) + low*.40:low*(.9+.28*Math.sin(p*2)) + mid*.04;a[i]=v*Math.min(1,i/(sr*.15),(len-i-1)/(sr*.15));}this.noises.set(kind,b);return b;}
+ volume(bus,val){const p=bus==='bgm'?this.bgm.gain:this.sfx.gain,t=this.ctx.currentTime;p.cancelScheduledValues(t);p.setTargetAtTime(1.8*clamp(val,0,1),t,.045);}
+ track(id){const c=this.ctx,input=c.createGain(),filter=c.createBiquadFilter(),gain=c.createGain(),send=c.createGain();filter.type='lowpass';filter.frequency.value=[4200,3900,4500,4700,4400,4100][id];filter.Q.value=.2;gain.gain.value=0;send.gain.value=[.25,.34,.27,.36,.24,.34][id];input.connect(filter);filter.connect(gain);gain.connect(this.bgm);gain.connect(send);send.connect(this.room());return {id,input,filter,gain,send,voices:new Set(),air:null,closed:false};}
+ // Each voice disconnects all of its nodes once its source ends.
+ note(dest,ev,when,voices){const c=this.ctx,kind=ev.kind,d=Math.max(.12,ev.d),g=c.createGain(),f=c.createBiquadFilter(),nodes=[g,f],sources=[];let source;const wind=['flute','reed','ney','bamboo','ocarina','breathdrone'].includes(kind), sustain=wind||kind==='bow';
+  f.type='lowpass';f.frequency.value=kind==='bass'?680:kind==='pad'?1700:kind==='reed'?3300:wind?3100:4400;f.Q.value=.25;
+  if(TIMBRES[kind]){source=c.createBufferSource();source.buffer=this.sample(kind);source.playbackRate.value=hz(ev.n)/220;if(ev.offset&&ev.offset*source.playbackRate.value>=source.buffer.duration-.02){g.disconnect();f.disconnect();return;}}
+  else{source=c.createOscillator();source.setPeriodicWave(this.wave(kind));source.frequency.value=hz(ev.n);if(ev.glide){source.detune.setValueAtTime(ev.glide,when);source.detune.linearRampToValueAtTime(0,when+Math.min(.16,d*.28));}if(sustain||kind==='pad'){const lfo=c.createOscillator(),depth=c.createGain();lfo.frequency.value=kind==='pad'?.29:kind==='bow'?3.8:kind==='ney'?3.0:kind==='ocarina'?4.4:4.1;depth.gain.value=kind==='pad'?2.6:kind==='bow'?9:kind==='ney'?12:kind==='ocarina'?5:7;lfo.connect(depth);depth.connect(source.detune);lfo.start(when);lfo.stop(when+d+.09);nodes.push(lfo,depth);sources.push(lfo);}}
+  if(wind){const breath=c.createBufferSource(),bf=c.createBiquadFilter(),bg=c.createGain();breath.buffer=this.noise('forest');breath.loop=true;bf.type='bandpass';bf.frequency.value=kind==='ney'?1450:kind==='bamboo'?1900:1250;bf.Q.value=.7;bg.gain.value=kind==='breathdrone'?.025:kind==='ney'?.11:kind==='bamboo'?.08:.045;breath.connect(bf);bf.connect(bg);bg.connect(f);breath.start(when);breath.stop(when+d+.04);nodes.push(breath,bf,bg);sources.push(breath);}
+  nodes.push(source);sources.push(source);source.connect(f);f.connect(g);let last=g;if(c.createStereoPanner){const pan=c.createStereoPanner();pan.pan.value=ev.pan||0;g.connect(pan);nodes.push(pan);last=pan;}last.connect(dest);
+  const a=Math.max(.0001,ev.a),attack=kind==='pad'||kind==='bass'?Math.min(d*.28,2.1):sustain?Math.min(.14,d*.18):TIMBRES[kind]?.percussion?.008:.025,release=kind==='pad'||kind==='bass'?Math.min(d*.30,2.0):sustain?Math.min(.20,d*.20):Math.min(.35,d*.25);
+  const p=g.gain;p.setValueAtTime(0,when);p.linearRampToValueAtTime(a,when+attack);p.setValueAtTime(a*.95,when+Math.max(attack,d-release));p.linearRampToValueAtTime(0,when+d);
+  const voice={nodes,sources,g,end:when+d+.04};voices.add(voice);source.onended=()=>{for(const x of nodes){try{x.disconnect()}catch(_){}}voices.delete(voice);};if(TIMBRES[kind]&&ev.offset)source.start(when,ev.offset*source.playbackRate.value);else source.start(when);source.stop(when+d+.04);return voice;
+ }
+ air(track,when){const kind=TRACKS[track.id].air;if(kind==='still')return;const c=this.ctx,s=c.createBufferSource(),f=c.createBiquadFilter(),g=c.createGain();s.buffer=this.noise(kind);s.loop=true;f.type='lowpass';f.frequency.value=kind==='forest'?1450:kind==='water'?1200:420;g.gain.value=kind==='water'?.085:kind==='forest'?.045:.035;s.connect(f);f.connect(g);g.connect(track.input);s.start(when);track.air={s,f,g};}
+ dispose(track){if(!track||track.closed)return;track.closed=true;for(const v of [...track.voices]){for(const s of v.sources){try{s.stop()}catch(_){}}for(const x of v.nodes){try{x.disconnect()}catch(_){}}}track.voices.clear();if(track.air){try{track.air.s.stop()}catch(_){}for(const x of Object.values(track.air)){try{x.disconnect()}catch(_){}}}for(const x of [track.input,track.filter,track.gain,track.send])x.disconnect();}
+ effect(id,when,voices){if(id===1){const p=this.duck.gain,t=this.ctx.currentTime;if(p.cancelAndHoldAtTime)p.cancelAndHoldAtTime(t);else{const v=p.value;p.cancelScheduledValues(t);p.setValueAtTime(v,t);}p.linearRampToValueAtTime(.78,when+.03);p.setValueAtTime(.78,when+.27);p.linearRampToValueAtTime(1,when+.60);}SE[id].notes.forEach(([at,n,d,a,k])=>this.note(this.sfx,{n,d,a,kind:k||'bell',pan:0},when+at,voices));}
+}
+const $=id=>document.getElementById(id), fmt=s=>`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+const scores=TRACKS.map((_,i)=>score(i)); // lightweight note lists, not PCM
+let context=null,engine=null,active=null,retiring=null,pending=null,selected=0,loop=true,runId=0,desired=false,hidden=false,fxVoices=new Set(),ticker=null;
+let bgmVol=.30,seVol=.40,seekPos=0,scrubbing=false;const setStatus=(s)=>{$('status').textContent=s};
+function setUI(){const playing=!!active&&desired;$('play').textContent=playing?'再生中':'再生';$('play').disabled=playing&&context?.state==='running'&&!hidden;$('stop').disabled=!desired&&!active&&!retiring&&fxVoices.size===0;$('now').textContent=active?`${String(active.id+1).padStart(2,'0')} / ${TRACKS[active.id].name}`:`${String(selected+1).padStart(2,'0')} / ${TRACKS[selected].name}`;$('track-sub').textContent=TRACKS[active?.id??selected].jp;document.querySelectorAll('[data-track]').forEach(b=>{const id=Number(b.dataset.track);b.setAttribute('aria-pressed',String(id===selected));b.classList.toggle('playing',id===active?.id&&desired);b.querySelector('.state').textContent=id===active?.id&&desired?'再生中':id===pending?'切替待ち':id===selected?'選択中':'試聴';});}
+async function unlock(){if(!context){const C=window.AudioContext||window.webkitAudioContext;if(!C)throw Error('Web Audio API非対応');context=new C();engine=new SoundEngine(context);engine.volume('bgm',bgmVol);engine.volume('se',seVol);context.addEventListener('statechange',()=>{if(context.state!=='running'&&desired&&!document.hidden){setStatus('音声が中断されました。再生ボタンをタップしてください。');setUI();}});}if(context.state!=='running'){let timer;try{await Promise.race([context.resume(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('音声の再生許可を確認してください')),2500)})]);}finally{clearTimeout(timer);}}if(context.state!=='running')throw Error('音声を開始できません');}
+function fade(tr,val,d){const p=tr.gain.gain,t=context.currentTime;if(p.cancelAndHoldAtTime)p.cancelAndHoldAtTime(t);else{const v=p.value;p.cancelScheduledValues(t);p.setValueAtTime(v,t);}p.linearRampToValueAtTime(val,t+d);}
+function begin(id,pos=0,fadeTime=1.5){const track=engine.track(id),sc=scores[id],now=context.currentTime+.10;pos=clamp(pos,0,sc.length-.05);let cursor=sc.events.findIndex(e=>e.time>=pos);if(cursor<0)cursor=sc.events.length;
+ Object.assign(track,{start:now-pos,cycle:cursor===sc.events.length?1:0,cursor:cursor===sc.events.length?0:cursor,retireAt:null});
+ engine.air(track,now);if(pos>0){for(const ev of sc.events){if(ev.time>=pos)break;const elapsed=pos-ev.time;if(ev.d-elapsed>.05)engine.note(track.input,{...ev,d:ev.d-elapsed,offset:elapsed},now,track.voices);}}
+ fade(track,1,fadeTime);active=track;seekPos=pos;setStatus('再生中 · オリジナル生成音源');pump();setUI();}
+function showPosition(pos,id){const len=scores[id].length; $('progress').value=pos/len; $('time').textContent=`${fmt(pos)} / ${fmt(len)}`; $('progress').setAttribute('aria-valuetext',`${fmt(pos)} / ${fmt(len)}`);}
+function seekTo(frac){const id=active?.id??selected;selected=id;pending=null;seekPos=clamp(frac*scores[id].length,0,scores[id].length-.05);if(active&&desired){if(retiring)engine.dispose(retiring);retiring=active;fade(retiring,0,.20);retiring.retireAt=context.currentTime+.24;active=null;begin(id,seekPos,.26);tick();}else{showPosition(seekPos,id);setUI();}}
+
+function switchTo(id){if(active?.id===id){pending=null;setUI();return;}if(retiring){pending=id;setUI();return;}if(active){retiring=active;active=null;fade(retiring,0,1.5);retiring.retireAt=context.currentTime+1.55;}begin(id,seekPos);}
+function stopFx(){for(const v of [...fxVoices]){for(const s of v.sources){try{s.stop()}catch(_){}}for(const n of v.nodes){try{n.disconnect()}catch(_){}}}fxVoices.clear();}
+function schedule(tr){if(!tr||tr.closed)return;const sc=scores[tr.id],now=context.currentTime;while(true){if(!loop&&tr.cycle>0)break;const ev=sc.events[tr.cursor],when=tr.start+tr.cycle*sc.length+ev.time;if(when>now+.40)break;if(when>=now-.14)engine.note(tr.input,ev,Math.max(now+.008,when),tr.voices);else if(ev.d>now-when+.05)engine.note(tr.input,{...ev,d:ev.d-(now-when),offset:now-when},now+.008,tr.voices);tr.cursor++;if(tr.cursor===sc.events.length){tr.cursor=0;tr.cycle++;}}}
+function pump(){if(!context||context.state!=='running'||document.hidden)return;const now=context.currentTime;if(retiring&&now>=retiring.retireAt){engine.dispose(retiring);retiring=null;if(desired&&pending!==null){const id=pending;pending=null;seekPos=0;switchTo(id);}}if(retiring&&desired) schedule(retiring);if(active&&desired){schedule(active);const len=scores[active.id].length,elapsed=Math.max(0,now-active.start);if(!loop&&elapsed>=len){stop(false);setStatus('曲の再生が終了しました。');return;}const pos=loop?elapsed%len:Math.min(elapsed,len);if(!scrubbing)showPosition(pos,active.id);}else if(!retiring){if(!scrubbing)showPosition(seekPos,selected);if(fxVoices.size===0){clearInterval(ticker);ticker=null;setUI();if(!desired&&context.state==='running')context.suspend().catch(()=>{});}}}
+function tick(){if(!ticker)ticker=setInterval(pump,100);}
+async function play(id=selected){if(id!==selected||active&&id!==active.id)seekPos=0;selected=id;const ticket=++runId;desired=true;setUI();setStatus('音声を準備しています…');try{await unlock();if(ticket!==runId||!desired)return;if(document.hidden){setStatus('画面を表示してから再生してください。');return;}switchTo(id);setStatus('再生中 · オリジナル生成音源');tick();setUI();}catch(e){if(ticket!==runId)return;desired=!!active;setStatus('音声を開始できません。Safariで開き、マナーモードを解除してもう一度再生をタップしてください。');setUI();}}
+function stop(user=true){++runId;desired=false;pending=null;if(context){if(retiring){engine.dispose(retiring);retiring=null;}if(active){retiring=active;active=null;fade(retiring,0,.65);retiring.retireAt=context.currentTime+.70;if(context.state!=='running'||document.hidden){engine.dispose(retiring);retiring=null;}else tick();}if(user)stopFx();}if(user)setStatus('停止中');seekPos=0;scrubbing=false;showPosition(0,selected);setUI();}
+async function playFX(id){try{await unlock();if(document.hidden)return;stopFx();engine.effect(id,context.currentTime+.06,fxVoices);tick();setUI();$('fx-status').textContent=`SE ${id+1} · ${SE[id].name} を再生`; }catch(e){$('fx-status').textContent='再生できません。Safariで再度タップしてください。';}}
+$('tracks').innerHTML=TRACKS.map((t,i)=>`<button type="button" class="track" data-track="${i}" aria-pressed="false"><span class="num">${String(i+1).padStart(2,'0')}</span><span class="trackbody"><span class="place">${t.place} · ${t.bpm} BPM · ${fmt(scores[i].length)} · ${t.meter}</span><strong>${t.name}</strong><span class="jp">${t.jp}</span><span class="desc">${t.desc}</span></span><span class="state">試聴</span></button>`).join('');
+$('effects').innerHTML=SE.map((s,i)=>`<button type="button" class="effect" data-fx="${i}"><span class="place">SE ${String(i+1).padStart(2,'0')} · ${s.duration} s</span><strong>${s.name}</strong><span class="desc">${s.desc}</span><span class="seplay">▶ 試聴</span></button>`).join('');
+$('tracks').addEventListener('click',e=>{const b=e.target.closest('[data-track]');if(b)play(Number(b.dataset.track));});$('effects').addEventListener('click',e=>{const b=e.target.closest('[data-fx]');if(b)playFX(Number(b.dataset.fx));});$('play').addEventListener('click',()=>play());$('stop').addEventListener('click',()=>stop());$('loop').addEventListener('change',e=>{loop=e.target.checked;if(!loop&&active){const sc=scores[active.id],elapsed=Math.max(0,context.currentTime-active.start);const cycles=Math.floor(elapsed/sc.length);active.start+=cycles*sc.length;active.cycle=Math.max(0,active.cycle-cycles);}});
+$('progress').addEventListener('input',e=>{scrubbing=true;const id=active?.id??selected,pos=Number(e.target.value)*scores[id].length;$('time').textContent=`${fmt(pos)} / ${fmt(scores[id].length)}`;});
+$('progress').addEventListener('change',e=>{scrubbing=false;seekTo(Number(e.target.value));});
+$('progress').addEventListener('pointercancel',()=>{scrubbing=false;if(active)pump();else showPosition(seekPos,selected);});
+for(const [id,bus] of [['bgmvol','bgm'],['sevol','se']])$(id).addEventListener('input',e=>{const v=Number(e.target.value)/100;if(bus==='bgm')bgmVol=v;else seVol=v;$(id+'label').textContent=e.target.value+'%';if(engine)engine.volume(bus,v);});
+async function pauseHidden(){hidden=true;if(context&&context.state==='running'){try{await context.suspend();}catch(_){}}if(desired)setStatus('画面が非表示のため一時停止中');setUI();}
+async function resumeVisible(){hidden=false;if(!context||!desired)return;try{await unlock();if(document.hidden)return;setStatus('再生中 · オリジナル生成音源');if(!active) switchTo(selected);tick();setUI();}catch(_){setStatus('音声を再開するには再生ボタンをタップしてください。');setUI();}}
+document.addEventListener('visibilitychange',()=>document.hidden?pauseHidden():resumeVisible());window.addEventListener('pagehide',pauseHidden);window.addEventListener('pageshow',()=>{if(hidden&&!document.hidden)resumeVisible()});
+showPosition(0,0);setUI();
+
+</script></body></html>
